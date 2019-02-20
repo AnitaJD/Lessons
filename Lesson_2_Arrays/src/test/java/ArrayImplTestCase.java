@@ -2,6 +2,8 @@ import org.hamcrest.core.Is;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Random;
+
 public class ArrayImplTestCase {
 
     public static final int INVALID_VALUE = 777;
