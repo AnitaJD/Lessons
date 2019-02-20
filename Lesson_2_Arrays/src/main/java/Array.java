@@ -1,4 +1,4 @@
-public interface Array<E> {
+public interface Array<E extends Comparable<? super E>>{
 
     void add (E value);
 
@@ -12,5 +12,9 @@ public interface Array<E> {
 
     int getSize ();
     boolean isEmpty ();
+
+    void sortBubble();
+    void sortSelect();
+    void sortInsert();
 
 }
