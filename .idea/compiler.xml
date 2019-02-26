@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lesson_2_Arrays" />
+        <module name="Lesson_3" />
+        <module name="Lesson_4_LinkedList" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Lesson_2_Arrays" target="1.8" />
+      <module name="Lesson_3" target="1.8" />
+      <module name="Lesson_4_LinkedList" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
