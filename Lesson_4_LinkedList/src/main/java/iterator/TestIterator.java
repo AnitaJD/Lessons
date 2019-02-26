@@ -22,9 +22,9 @@ public class TestIterator {
         linkedList.insert(2);
         linkedList.insert(3);
 
-        for (Integer element: linkedList){  //расширить LinkList до Iterable и написать метод реализации
-            System.out.println(element);
-        }
+//        for (Integer element: linkedList){  //расширить LinkList до Iterable и написать метод реализации
+//            System.out.println(element);
+//        }
 
         Entry<Integer> current = linkedList.getFirst();
         while (current != null) {

@@ -103,4 +103,6 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E> {
     public Entry<E> getFirst() {
         return firstElement;
     }
+
+
 }
