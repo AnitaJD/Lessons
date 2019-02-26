@@ -39,4 +39,6 @@ public class LinkedStackImpl<E> implements Stack<E> {
     public boolean isEmpty() {
         return data.isEmty();
     }
+
+
 }

@@ -1,6 +1,6 @@
 package linkedlist;
 
-public interface LinkedList <E> {
+public interface LinkedList <E> extends Iterable<Integer>{
 
     void insert (E value);
     E remove ();
