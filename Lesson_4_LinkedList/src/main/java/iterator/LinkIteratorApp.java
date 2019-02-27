@@ -2,7 +2,6 @@ package iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.ListIterator;
 
 public class LinkIteratorApp {
@@ -32,7 +31,7 @@ public class LinkIteratorApp {
 
         while (listIterator.hasNext()) {
             Integer next = listIterator.next();
-            listIterator.set(next + 10);
+            listIterator.set(next + 1);
         }
 
         iterator = arrayList.iterator();

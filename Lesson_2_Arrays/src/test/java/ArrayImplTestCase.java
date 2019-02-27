@@ -32,7 +32,6 @@ public class ArrayImplTestCase {
 
     @Test
     public void  test_search (){
-
         Array<Integer> array = new ArrayImpl<>();
         array.add(10);
         array.add(20);
