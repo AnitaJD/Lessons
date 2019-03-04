@@ -15,7 +15,6 @@ public class Main4 {
 
         linkedList.display();
 
-
         System.out.println("Find 2 " + linkedList.find(2));
         System.out.println("Find 222 " + linkedList.find(222));
 
