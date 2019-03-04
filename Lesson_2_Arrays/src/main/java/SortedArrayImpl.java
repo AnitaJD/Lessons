@@ -19,22 +19,4 @@ public class SortedArrayImpl <E extends Object & Comparable<? super E>> extends 
         currentSize++;
     }
 
-    @Override
-    public int indexOf(E value) {
-        int low = 0;
-        int high = currentSize - 1;
-        while ( low <= high){
-            int mid = (low + high) / 2;
-            if ( data[mid].equals(value))
-                return mid;
-
-            if ( value.compareTo(data[mid]) < 0) {
-                high = mid - 1;
-            }
-            else {
-                low= mid + 1;
-            }
-        }
-        return IVALID_INDEX;
-    }
 }
