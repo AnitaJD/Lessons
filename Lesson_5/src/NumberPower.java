@@ -16,4 +16,5 @@ public class NumberPower {
             return result(number,power - 1) * number;
         }
     }
+    //test
 }
